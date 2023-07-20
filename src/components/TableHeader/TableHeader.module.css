@@ -1,0 +1,35 @@
+.item {
+      box-sizing: border-box;
+      background-color: var(--gray-color);
+      padding: 1rem 1.2rem;
+      color: var(--white);
+      cursor: pointer;
+      user-select: none;
+}
+.item:hover {
+      background-color: var(--light-gray-color);
+}
+.item svg {
+      margin-left: 5px;
+}
+.item[data-active="asc"],
+.item[data-active="desc"] {
+      background-color: var(--dark-gray-color);
+}
+.item[data-active="desc"] svg {
+      transform: rotateZ(180deg);
+}
+
+.wrapper {
+      padding: 0 1rem;
+      height: 60px;
+      box-sizing: border-box;
+}
+.id {
+      width: 65px;
+}
+.title {
+      width: 440px;
+}
+.content {
+}

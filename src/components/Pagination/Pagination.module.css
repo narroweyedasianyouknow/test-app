@@ -1,0 +1,25 @@
+.button {
+      min-width: 60px;
+      cursor: pointer;
+      user-select: none;
+      padding: 1rem 1.3rem;
+      background-color: unset;
+      color: var(--text-color);
+      border-radius: 4px;
+      border-width: 1px;
+}
+.button:hover {
+      background-color: var(--text-color);
+      color: var(--white);
+}
+.wrapper {
+      margin-top: 0.2rem;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 1rem;
+}
+.button[data-active="active"] {
+      background-color: var(--text-color);
+      color: var(--white);
+}
