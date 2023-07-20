@@ -6,7 +6,7 @@ import { Pagination } from "./components/Pagination/Pagination";
 import SearchInput from "./components/SearchInput/SearchInput";
 
 function App() {
-      const { fetch, list, page, maxPage, sort } = useStore();
+      const { fetch, list } = useStore();
       useEffect(() => {
             void fetch();
       }, [fetch]);
